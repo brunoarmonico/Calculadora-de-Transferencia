@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <AppxPackageIsForStore>True</AppxPackageIsForStore>
+    <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxBuildConfigurationSelection>x86|x64|arm</AppxBuildConfigurationSelection>
+    <Source>E:\Projetos\Calculadora de Transferencia\Logo.png</Source>
+    <SmallTileSource>E:\Projetos\Calculadora de Transferencia\Logo.png</SmallTileSource>
+    <MediumTileSource>E:\Projetos\Calculadora de Transferencia\Logo.png</MediumTileSource>
+    <WideTileSource>
+    </WideTileSource>
+    <AppIconSource>E:\Projetos\Calculadora de Transferencia\Logo.png</AppIconSource>
+    <SplashScreenSource>E:\Projetos\Calculadora de Transferencia\Logo.png</SplashScreenSource>
+    <PackageLogoSource>E:\Projetos\Calculadora de Transferencia\Logo.png</PackageLogoSource>
+    <LargeTileSource>
+    </LargeTileSource>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <DeviceId>30F105C9-681E-420b-A277-7C086EAD8A4E</DeviceId>
+    <UseEmulator>false</UseEmulator>
+    <RemoteDebugMachine>192.168.0.102</RemoteDebugMachine>
+    <AuthenticationMode>Universal</AuthenticationMode>
+    <RemoteDebugEnabled>true</RemoteDebugEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DeviceId>30F105C9-681E-420b-A277-7C086EAD8A4E</DeviceId>
+    <UseEmulator>false</UseEmulator>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DeviceId>30F105C9-681E-420b-A277-7C086EAD8A4E</DeviceId>
+    <UseEmulator>true</UseEmulator>
+  </PropertyGroup>
+</Project>

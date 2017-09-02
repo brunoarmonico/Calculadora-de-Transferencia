@@ -1,0 +1,1 @@
+MainPackage=E:\Projetos\Calculadora de Transferencia\Calculadora de Transferencia\bin\x64\Release\Calculadora de Transferencia_1.0.0.0_x64.appx

@@ -1,0 +1,5 @@
+MainPackage=E:\Projetos\Calculadora de Transferencia\Calculadora de Transferencia\bin\ARM\Release\Upload\Calculadora de Transferencia_1.0.0.0_ARM.appx
+ResourcePack=E:\Projetos\Calculadora de Transferencia\Calculadora de Transferencia\_scale-100.appx
+ResourcePack=E:\Projetos\Calculadora de Transferencia\Calculadora de Transferencia\_scale-125.appx
+ResourcePack=E:\Projetos\Calculadora de Transferencia\Calculadora de Transferencia\_scale-150.appx
+ResourcePack=E:\Projetos\Calculadora de Transferencia\Calculadora de Transferencia\_scale-400.appx
